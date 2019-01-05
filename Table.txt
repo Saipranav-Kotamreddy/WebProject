@@ -1,10 +1,10 @@
 show databases;
-create database Sai_Akash;
-use Sai_Akash;
-Create Table artic_animals (id int(11), Name varchar(225), avg_height varchar (225), avg_weight varchar (225), color varchar (225));
-Insert into artic_animals (id, name, avg_height, avg_weight, color) values (1, "Penguin", "4ft", "51lbs", "Black&White");
-Insert into artic_animals (id, name, avg_height, avg_weight, color) values (2, "Polar Bear", "6.6ft", "990lbs", "White");
-Insert into artic_animals (id, name, avg_height, avg_weight, color) values (3, "Seal", "6ft 4in", "300", "Black&White");
-Insert into artic_animals (id, name, avg_height, avg_weight, color) values (4, "Whale", "57ft", "200 tons", "Grey");
-select * from artic_animals;
+create database Sai;
+use Sai;
+Create Table arctic_animals (id int(11), Name varchar(225), avg_height varchar (225), avg_weight varchar (225), color varchar (225));
+Insert into arctic_animals (id, name, avg_height, avg_weight, color) values (1, "Penguin", "4ft", "51lbs", "Black&White");
+Insert into arctic_animals (id, name, avg_height, avg_weight, color) values (2, "Polar Bear", "6.6ft", "990lbs", "White");
+Insert into arctic_animals (id, name, avg_height, avg_weight, color) values (3, "Seal", "6ft 4in", "300", "Black&White");
+Insert into arctic_animals (id, name, avg_height, avg_weight, color) values (4, "Whale", "57ft", "200 tons", "Grey");
+select * from arctic_animals;
 show tables;
