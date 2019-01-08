@@ -4,7 +4,7 @@ use Sai;
 Create Table arctic_animals (id int(11) not null auto_increment primary key, Name varchar(225), avg_height varchar (225), avg_weight varchar (225), color varchar (225));
 Insert into arctic_animals (name, avg_height, avg_weight, color) values ("Penguin", "4ft", "51lbs", "Black&White");
 Insert into arctic_animals (name, avg_height, avg_weight, color) values ("Polar Bear", "6.6ft", "990lbs", "White");
-Insert into arctic_animals (name, avg_height, avg_weight, color) values ("Seal", "6ft 4in", "300", "Black&White");
+Insert into arctic_animals (name, avg_height, avg_weight, color) values ("Seal", "6ft 4in", "300 lbs", "Black&White");
 Insert into arctic_animals (name, avg_height, avg_weight, color) values ("Whale", "57ft", "200 tons", "Grey");
 select * from arctic_animals;
 show tables;
