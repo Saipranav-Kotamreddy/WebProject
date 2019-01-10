@@ -1,0 +1,41 @@
+
+      body{
+	font-family: arial;
+    	font-size: 18px;
+		text-align: center;
+		background-image: url("https://thegeopolitics.com/wp-content/uploads/2018/07/Russias-Arctic-Strategy.jpg")
+      }
+      p {
+          color: black;
+	  letter-spacing: 0.1em;
+   	  word-spacing: 0.5em;
+     	  line-height: 1.5;
+   	  text-align: center;
+      }
+  
+      h1 {
+          color: purple;
+	  background-color: black;
+          text-align: center;
+      }
+      h2 {
+          color: red;
+          text-align: center;
+      }
+      div{
+          color: green;
+          text-align: center;
+      }
+      .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40 40px;
+}
+.column {
+  flex: 70%;
+  padding: 40 40px;
+}
+.column img {
+  margin-top: 40px;
+  vertical-align: middle;
+}

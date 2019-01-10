@@ -1,0 +1,17 @@
+	body{
+		font-family: arial;
+    	font-size: 18px;
+		text-align: center;
+		background-image: url("https://images3.alphacoders.com/278/278069.jpg")
+    }
+     p {
+          color: red;
+	  letter-spacing: 0.1em;
+   	  word-spacing: 0.5em;
+     	  line-height: 1.5;
+   	  text-align: center;
+   	  }
+   	  div{
+          color: red;
+          text-align: center;
+      }

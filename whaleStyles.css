@@ -1,0 +1,17 @@
+	body{
+		font-family: arial;
+    	font-size: 18px;
+		text-align: center;
+		background-image: url("http://4.bp.blogspot.com/-zb9tZrlrE0g/UFHWQk1hsMI/AAAAAAAAAK8/yIcyJPl5JgU/s1600/Husavik+whale+museum+2.jpg")
+    }
+     p {
+          color: black;
+	  letter-spacing: 0.1em;
+   	  word-spacing: 0.5em;
+     	  line-height: 1.5;
+   	  text-align: center;
+   	  }
+   	  div{
+          color: red;
+          text-align: center;
+      }

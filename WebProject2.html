@@ -1,0 +1,45 @@
+<html>
+  <head>
+  <script>
+  	function buttonClick(){
+    	document.body.style.backgroundImage = "url('https://media.gadventures.com/media-server/cache/72/26/7226208f8a43a810dfe566cc29a14727.jpg')"
+    }
+    function imageClicker(){
+    document.getElementById("imgdiv").innerHTML = "<p> These are the north and south poles</p>"
+    }
+    function divClicker(){
+    document.getElementById("posdiv").style.textAlign = "left";
+    }
+  </script>
+    <meta charset="utf-8">
+    <title>Polar Animals</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body> 
+    <input id="Me" type="button" value="Press to move to Antarctica" onclick="buttonClick();" />
+  <main>
+    <h1> Arctic and Antarctic Animals </h1>
+    <div> This is a website dedicated to the presentation of animals who live in the North and South Poles<br/></div>
+    <div>
+      <h2> Arctic Animals</h2>
+      <div class="row">
+      <div class="column">
+        <a href = "penguin.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Penguins_walking_-Moltke_Harbour%2C_South_Georgia%2C_British_overseas_territory%2C_UK-8.jpg/220px-Penguins_walking_-Moltke_Harbour%2C_South_Georgia%2C_British_overseas_territory%2C_UK-8.jpg" align="left"  hspace="240" onClick = imageClicker();></a>
+        <a href = "polarBear.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/220px-Polar_Bear_-_Alaska_%28cropped%29.jpg" onClick = imageClicker();></a>
+      </div>
+    </div>
+	<h2>Antarctic Animals</h2>
+	<div class="row">
+      <div class="column">
+        <a href = "seal.html"><img src="http://www.gwinnett.k12.ga.us/CooperES/Teacher_Websites/Watson_Web/5th_marine_biology_tuesday/ErinPagophilus_groenlandicus1.jpeg" align="left"  hspace="240" onClick = imageClicker();></a>
+        <a href = "whale.html"><img src="http://2.bp.blogspot.com/_29_shKT4Elw/S4eCh8hs8oI/AAAAAAAAJjs/IH3QXehJ-MM/s320/orca2.jpg" onClick = imageClicker();></a>
+      </div>
+    </div>
+    </div>
+    <div onClick = divClicker();>
+    <div id="imgdiv">
+    <h2> General Facts</h2>
+    </div>
+  </main>
+  </body>
+</html>

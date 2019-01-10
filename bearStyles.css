@@ -1,0 +1,17 @@
+	body{
+		font-family: arial;
+    	font-size: 18px;
+		text-align: center;
+		background-image: url("https://d2rormqr1qwzpz.cloudfront.net/photos/2014/04/15/60034-adult_males_on_land_summer.jpg")
+    }
+     p {
+          color: black;
+	  letter-spacing: 0.1em;
+   	  word-spacing: 0.5em;
+     	  line-height: 1.5;
+   	  text-align: center;
+   	  }
+   	  div{
+          color: red;
+          text-align: center;
+      }
